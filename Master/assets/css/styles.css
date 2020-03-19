@@ -2,9 +2,9 @@
 body {
   /* Typography */
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-
+background-color: seashell;
   /* Visual */
-  background-image: url("../imgs/ignasi_pattern_s.png");
+  /* background-image: url("../imgs/ignasi_pattern_s.png"); */
 }
 
 html {
@@ -30,7 +30,7 @@ main {
 
 .block-header {
   /* Typography */
-  color: #4aaaa5;
+  color: royalblue;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
@@ -45,25 +45,25 @@ main {
   color: #fff;
 
   /* Visual */
-  background: #4aaaa5;
+  /* background: #4aaaa5; */
 }
 
 /* override bootstrap hover color and border */
-.navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
-}
+/* .navbar-default .navbar-nav > li > a:hover { */
+  /* color: #4aaaa5;
+} */
 
 .navbar {
-  background: white;
+  background: royalblue;
   border: none;
 }
 
 /* media query for nav background color change */
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .navbar-header {
     background-color: #4aaaa5;
   }
-}
+} */
 /* END NAV */
 
 
@@ -117,7 +117,7 @@ main {
   padding-top: 3px;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: royalblue;
 }
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
@@ -173,7 +173,7 @@ main {
   color: #fff;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: royalblue;
   border: 0;
 }
 
